@@ -1,0 +1,71 @@
+Exercício MongoDB
+Utiliza a collection restaurants e o código https://repl.it/@mayconbordin/ConexaoMongodbBasico 
+como base para responder as questões abaixo.
+
+
+1. Escreva uma consulta no MongoDB para mostrar todos documentos na coleção restaurants. 
+
+2. Escreva uma consulta para mostrar os campos restaurant_id, name, borough e cuisine para todos documentos da coleção restaurants.
+
+3. Escreva uma consulta para mostrar os campos restaurant_id, name, borough e cuisine, mas
+    excluindo o campo _id para todos documentos da coleção restaurant.
+
+4. Escreva uma consulta para mostrar os campos restaurant_id, name, borough e zip code, 
+    excluindo o campo _id de todos documentos da coleção restaurante.
+
+5. Escreva uma consulta para mostrar todos restaurantes do borough Bronx. 
+
+6. Escreva uma consulta para mostrar os primeiros 5 restaurantes do borough Bronx. 
+
+7.Escreva uma consulta para mostrar os próximos 5 restaurantes, depois de pular 5, do borough Bronx. 
+
+8. Escreva uma consulta para encontrar restaurantes com score maior que 90. 
+
+9. Escreva uma consulta para encontrar restaurantes com um score maior que 80, mas menor que 100.
+
+10. Escreva uma consulta para encontrar os restaurantes com latitude menor que -95.755278.
+
+11. Escreva uma consulta para encontrar restaurantes que não preparam cuisine ‘American’ e 
+    que tenham grade score maior que 70 e latitude menor que -65.755278. 
+
+12. Escreva uma consulta para encontrar restaurantes que não preparam cuisine ‘American’ e 
+    obtiveram um score maior que 70 e tem a latitude menor que -65.755278.
+
+13. Escreva uma consulta para encontrar resutarantes que não preperam cuisine ‘American’ e
+    conseguiram grade point 'A' e não pertencem ao borough Brooklyn. O documento deve estar ordenado pela cuisine em ordem descendente.
+
+14. Escreva uma consulta para encontrar a ID do restaurante, name, borough e cuisine para o
+    restaurantes que contém ‘Wil’ como as três primeiras letras do nome.
+
+15. Escreva uma consulta para encontrar a ID do restaurante, name, borough para os restaurantes que 
+    contém ‘ces’ como as últimas três letras do nome.
+
+16. Escreva uma consulta para encontrar a ID do restaurante, name, borough e cuisine para os restaurantes que 
+    contém ‘Reg’ em alguma parte do nome.
+
+17. Escreva uma consulta para encontrar restaurantes que pertencem ao borough Bronx e 
+    preparam pratos (cuisine) American ou Chinese.
+
+18. Escreva uma consulta que retorne a ID do restaurante, name, borough e cuisine para os restaurantes que 
+    pertençam ao borough Staten Island ou Queens ou Bronxor Brooklyn.
+
+19. Escreva uma consulta que retorne a ID do restaurante, name, borough e cuisine para os restaurantes que 
+    não pertecem ao borough Staten Island ou Queens ou Bronxor Brooklyn.
+
+20. Write a MongoDB query to find the restaurant Id, name, borough and cuisine for those restaurants which
+    achieved a score which is not more than 10. 
+
+21. Escreva uma consulta para retornar a ID do restaurante, name, borough e cuisine para os restaurantes que 
+    preparam todos os pratos (cuisine) exceto ‘American’ e ‘Chinese’ ou cujo nome comece com ‘Wil’.
+
+22. Escreva uma consulta que retorne a ID do restaurante, name, e notas (grades) para os restaurantes que 
+    conseguiram nota “A” e marcaram score 11 na data "2014-08-11T00:00:00Z".
+    Dica: use new Date("2014-08-11T00:00:00Z") no node.js 
+
+23. Escreva uma consulta que retorne a ID do restaurante, name, e notas (grades) para os restaurantes cujo 
+    segundo elemento do array de notas contém a nota “A” e score 9, com a data "2014-08-11T00:00:00Z".
+
+24. Escreva uma consulta que retorne a ID do restaurante, name, address, e localização geográfica para 
+    os restaurantes cujo segundo elemento do array de coordenadas contenha um valor maior que 42 e menor ou igual a 52.
+
+25. Escreva uma consulta que ordene os restaurantes pelo nome em ordem ascendente, retornando todos os campos.
